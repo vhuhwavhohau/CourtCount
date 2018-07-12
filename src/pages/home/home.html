@@ -1,0 +1,62 @@
+<ion-header>
+  <ion-navbar color="orange">
+    <ion-title>
+      Court Counter 
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  
+    <div class="teamA">
+      <h1>Team A</h1>
+      <br>
+      <h1>{{value}}</h1><br>
+      <br>
+      <button  id ="btn" ion-button block color="orange" ([ngmodel])="value" (click)="clickthree()" >+3</button>
+      <br>
+      <button id ="btn" ion-button block  color="orange" ([ngmodel])="value" (click)="clicktwo()" >+2</button>
+      <br>
+      <button id ="btn" ion-button block color="orange" ([ngmodel])="value" (click)="clickone()" >+1</button>
+      
+      
+      
+      
+     
+
+    </div>
+  
+
+    <div class="teamB">
+        <h1>Team B</h1>
+        <br>
+        <h1>{{value2}}</h1>
+        <br><br>
+        <button id ="btn" ion-button block color="orange" ([ngmodel])="value2" (click)="clickthreee()" >+3</button>
+        <br>
+        <button id ="btn" ion-button block  color="orange" ([ngmodel])="value2" (click)="clicktwoo()" >+2</button>
+        <br>
+        <button id ="btn" ion-button block color="orange" ([ngmodel])="value2" (click)="clickonee()" >+1</button>
+        
+    </div>
+    
+
+
+    <div class="Reset">
+        <button  id ="btn" ion-button block color="orange" (click)="Reset()" >Reset</button>
+
+
+    </div>
+    <div id="lin">
+      
+    </div>
+  
+
+
+  </ion-content>
+
+
+        
+
+
+
